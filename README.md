@@ -9,9 +9,9 @@ Download the Release, it contains 3 files needs to copy in the TheSkyX folder.
 * Download USBFocus.ui
 * Download FocuserList USBFocus.txt
 
-"FocuserList USBFocus.txt" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Miscellaneous Files folder
-"USBFocus.ui" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Plugins/FocuserPlugins folder
-"libX2USBFocus.so" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Plugins/FocuserPlugins folder
+1) "FocuserList USBFocus.txt" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Miscellaneous Files folder  
+2) "USBFocus.ui" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Plugins/FocuserPlugins folder  
+3) Extract binary file and "libX2USBFocus.so" should be copied in TheSkyX Installation Folder/Contents/Resources/Common/Plugins/FocuserPlugins folder  
 
 usbfocus is a cdc acm class device, on connecting cdc_acm driver will create /dev/ttyACM0 interface for communication.
 
