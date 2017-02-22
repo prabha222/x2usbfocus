@@ -1,0 +1,3 @@
+//See hardwarelist.txt for details on this file format.
+//Version|Manufacturer|Model|Comment|MapsTo|PlugInDllName
+1|USBFoc US|Focuser|Connect to USB Focus| |libx2usbfocus
