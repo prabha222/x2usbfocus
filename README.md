@@ -20,7 +20,7 @@ TheSkyX uses a set of "pre-defined" serial sym-links generated through udev-rule
 Workaround for this is to update "/etc/udev/rules.d/10-SoftBisque.rules" file.
 In my case i do not have any FTDI serial devices, so i modified existing entry with usbfocus vendor(0x0461) and device(0x0033) id.
 
-#ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", MODE="0666", SYMLINK+="FTDIusb"
+\#ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", MODE="0666", SYMLINK+="FTDIusb"
 ACTION=="add", ATTRS{idVendor}=="0461", ATTRS{idProduct}=="0033", MODE="0666", SYMLINK+="FTDIusb"
 
 if you use FTDIusb serial device, you could pick "Prolific",etc
